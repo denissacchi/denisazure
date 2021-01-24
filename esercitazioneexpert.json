@@ -178,9 +178,7 @@
                 "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroupName'))]"
               }
             }
-          }
-        ]
-	"subnets": [
+          },
           {
             "name": "[variables('subnetProdName')]",
             "properties": {
