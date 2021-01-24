@@ -96,7 +96,7 @@
   "variables": {
     "storageAccountName": "[concat('bootdiags', uniquestring(resourceGroup().id))]",
     "nicName": "VMNic",
-    "addressPrefix": "10.26.26.0/16",
+    "addressPrefix": "10.26.26.0/24",
     "subnetName": "Subnet-esercitazione-prod",
     "subnetPrefix": "10.26.26.0/26",
 	 "subnetName": "Subnet-esercitazione-prod",
