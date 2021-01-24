@@ -99,8 +99,6 @@
     "addressPrefix": "10.26.26.0/24",
     "subnetName": "Subnet-esercitazione-dev",
     "subnetPrefix": "10.26.26.0/26",
-    "subnetName": "Subnet-esercitazione-prod",
-    "subnetPrefix": "10.26.26.64/26",
     "virtualNetworkName": "vn-esercitazione",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
     "networkSecurityGroupName": "default-NSG"
